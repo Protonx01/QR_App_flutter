@@ -17,9 +17,7 @@ import 'package:share/share.dart';
 // import 'package:image/image.dart' as Image;
 
 
-//todo add app icon
-//todo reduce apk size
-//todo Change App name
+//todo reduce apk size.
 
 Color accentColor = Colors.yellow[800];
 // final Color textColor = Colors.white;
@@ -535,82 +533,3 @@ class ScannedResultPage extends StatelessWidget {
     );
   }
 }
-
-
-// class ResultPage extends StatelessWidget {
-//   const ResultPage({Key key}) : super(key: key);
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//
-//         title: Text("QR is ready"),
-//         backgroundColor: accentColor,
-//       ),
-//
-//       body: SingleChildScrollView(
-//         child: Padding(
-//           padding: const EdgeInsets.fromLTRB(20.0,50.0,20.0,0.0),
-//           child: Column(
-//             crossAxisAlignment: CrossAxisAlignment.center,
-//             children: [
-//               Container(
-//                 height: 200.0,
-//                 width: 200.0,
-//                 child: QrImage(
-//                   data: myController.text,
-//                   version: QrVersions.auto,
-//                   size: 320,
-//                   gapless: true,
-//                 ),
-//                 // color: Colors.blueGrey[900]
-//               ),
-//
-//               SizedBox(height: 50.0),
-//               Row(
-//                 mainAxisAlignment: MainAxisAlignment.center,
-//
-//                 children: [
-//                   Padding(
-//                     padding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 30.0),
-//                     child: FloatingActionButton(
-//                       onPressed: () {},
-//                       backgroundColor: accentColor,
-//                       child: Icon(
-//                         Icons.share_rounded,
-//                         color: Colors.white,
-//                       ),
-//                     ),
-//                   ),
-//                   SizedBox(width: 40.0),
-//                   Padding(
-//                     padding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 30.0),
-//                     child: FloatingActionButton(
-//                       onPressed: () {},
-//                       backgroundColor: accentColor,
-//                       child: Icon(
-//                         Icons.save_alt_rounded,
-//                         color: Colors.white,
-//                       ),
-//                     ),
-//                   ),
-//                 ],
-//               ),
-//
-//             ],
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
-//
-
-// final dir = await getExternalStorageDirectory();
-// final myImagePath = dir!.path + "/myimg.png";
-// File imageFile = File(myImagePath);
-// if(! await imageFile.exists()){
-//   imageFile.create(recursive: true);
-// }
-// imageFile.writeAsBytes(image);
