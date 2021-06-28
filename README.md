@@ -2,15 +2,23 @@
 
 Flutter app with functionalities to scan and create QR codes
 
-## Getting Started
+## Important Files
 
-This project is a starting point for a Flutter application.
+- [QR-app.apk](QR-app.apk) from the project folder. It is the release version of the app
+- **[main.dart](/lib/main.dart)** is contains the entire code for the app
+- Also check **[AndroidManifest.xml](/android/app/src/main/AndroidManifest.xml)**, **[pubspec.yaml](pubspec.yaml)**, and  **[build.gradle](/android/app/build.gradle)**  for further metadata, dependencies and build information
 
-A few resources to get you started if this is your first Flutter project:
+### version 1.0
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- **Basic working + design**
+  - Scan QR code with camera
+  - Copying the retrieved text
+  - Creating QR code
+  - Creating app specific directory
+  - Sharing created QR
+  - Saving in storage with proper naming
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Future Plans
+- Reduce APK size
+- Adding settings button to change theme and further options with storage
+- Optimizing the code, and spliting them in different files for ease of maintainance
