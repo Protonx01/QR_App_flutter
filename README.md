@@ -1,4 +1,4 @@
-# qr_app
+# QR app
 
 Flutter app with functionalities to scan and create QR codes
 
