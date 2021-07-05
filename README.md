@@ -1,6 +1,7 @@
 # QR app
 
 Flutter app with functionalities to scan and create QR codes
+Made by Proyag Chakraborty
 
 ## Important Files
 
